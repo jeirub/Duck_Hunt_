@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en/es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FontAwesome Link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- BootStrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="../CSS/list.css" />
+
+    <title>Duck Hunt</title>
+
+  </head>
+  <body class="background_image">
+    <header>
+      <img src="../IMAGES/logo_horizontal.png" alt="logo" class="logo"/>
+    </header>
+    <section class="form_section ">
+      <h2 class="victims_title">NAME DUCKS</h2>
+      <div class="container_input">
+        <form class="form_list">
+          <input
+            type="text"
+            placeholder="Name Duck"
+            id="inputPlayer"
+          />
+          <button id="addPlayer">+</button>
+        </form>
+      </div>
+      <div class="container_list">
+        <h3 class="title_list">List of Ducks</h3>
+        <div class="container_players">
+          <ul class="list_of_players" id="listOfPlayers">
+          </ul>
+        </div>
+      </div>
+      <a href="" id="goPlay">
+        <img src="../IMAGES/play.png" class="btn_play" alt="play nutton" srcset="" />
+      </a>
+      <div>
+      <button id="toggleSound">Encender Sonido</button>
+      <audio id="audioElement" src="../SOUND/donkey-kong-country.mp3" loop></audio>
+      </div>
+    <div>
+    <ul id="dog">
+      <li>
+        <img src="../IMAGES/dog.png" alt="dog">
+      </li>
+    </ul>
+    </div>
+    </section>
+    <script src="../JS/list.js"></script>
+  </body>
+</html>

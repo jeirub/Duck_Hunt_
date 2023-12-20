@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en/es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FontAwesome Link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- BootStrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- RESET.CSS -->
+    <link rel="stylesheet" href="../reset_and_globals.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../CSS/game.css">
+    <link rel="stylesheet" href="../style/Popup_dead_coder.css">
+    <!-- RETRO FONT-GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <!-- ORBITRON FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <title>DuckHunt</title>
+    <!-- FAVICONS -->
+    <link rel="apple-touch-icon" sizes="57x57" href="../meta/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../meta/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../meta/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../meta/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../meta/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../meta/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../meta/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../meta/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../meta/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../meta/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../meta/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../meta/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../meta/favicons/favicon-16x16.png">
+    <link rel="manifest" href="../meta/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+    <body>
+        <main class="gamePageDisplay">
+            <div class="gun" id="gun_container">
+                <img src="../IMAGES/maskgroup.png" alt="gun" class="img_gun">
+            </div>
+            <div class="playerContainer shadow" id="player">
+                <img class="player"  src="../GIF/walking-player.gif" alt="player" id="player_img">
+            </div>
+            <div class="kill_button" id="kill">
+                    <h1 class="img_kill_button">s</h1>
+            </div>
+            <div class="nextButton block_next" id="nextcontainer">
+              <h1 class="nextButton_oficial" id="nextButton">></h1>
+            </div>
+            <div id="modal_container" class="modal-container">
+                <div class="container_imagen"><img
+                    src="../IMAGES/skeleton.png"
+                    id="imagen">
+                </div>
+                <div class="modal">
+                  <h3 id="alertPlayerDeleted"></h3>
+                  <div class="container_bottons" id="container_buttons">
+                    <div id="nextKill">
+                      <h1 class="btcontinue">next</h1>
+                    </div>
+                    <a href='/pages/list' id='list'>            
+                      <h1 class="home">home</h1>
+                    </a>
+                  </div>
+                </div>
+            </div>
+            
+        </main>
+        <script src="../JS/game.js" type="text/javascript" defer>
+          
+        </script>
+    </body>
+</html>
